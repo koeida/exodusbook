@@ -8,10 +8,11 @@
 \usepackage{caption}
 \usepackage{titlesec}
 \usepackage{subfig}
+\usepackage{float}
+\usepackage[section]{placeins}
 \usepackage[latin.classical]{babel}
 
 \captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=none,name={}}
-
 
 \titleformat{\section}
 {\normalfont\bfseries}
@@ -31,7 +32,17 @@
     {\MakeUppercase{\romannumeral #1}}
 \parskip 1.5ex
 \begin{document}
+
+\begin{figure}[p]
+    \hspace*{2.5cm}
+    \makebox[\linewidth]{
+        \includegraphics[width=1.3\linewidth]{midwives}
+    }
+    \caption{\hspace*{4cm}Obstetricēs et Rēx}
+\end{figure}
+
 \section{CAPITULUM PRIMUM}
+
 
 \marginpar{quasi: velut}[In Aegyptō] fīliī Isrāēl crēvērunt, et quasi\marginpar{germināre: emmitere germina (ea quae ex plantīs veniunt: semen, fructus, cēt.)} germinantēs multiplicātī sunt:
 ac rōborātī \marginpar{rōborāre: firmāre; virēs addere}nimis, implēvērunt terram.
@@ -40,7 +51,8 @@ Surrēxit intereā rēx novus super Ægyptum, quī ignōrābat Ioseph.
 Et ait ad populum suum: ``Ecce, populus fīliōrum Isrāēl multus, et fortior nōbīs est.
 \marginpar{ingruere: cum vi accedere}Venīte, sapienter opprimāmus eum, nē forte multiplicētur: et sī ingruerit contrā nōs bellum, addātur inimīcīs nostrīs, expugnātisque nōbīs ēgredi\-ātur dē terrā.''\marginpar{\begin{center}\includegraphics{tab}\\tabernaculum, -ī (n)\end{center}tabernaculum quoque significat aedificium sacrum, ad formam tabernaculī}
 
-\marginpar{praeposuit eīs magistrōs operum: dedit magistrīs potestatem super opera fīliōrum Isrāēl} Præposuit itaque eīs magistrōs operum, ut aff-līgerent eōs oneribus: 
+\marginpar{praeposuit eīs magistrōs operum: dedit magistrīs potestatem super opera fīliōrum Isrāēl}
+Præposuit itaque eīs magistrōs operum, ut aff-līgerent eōs oneribus: 
 ædificaveruntquē urbēs tabernāculōrum Pharaōnī, Phithom et Ramessēs.
 Quantōque opprimēbant eōs, tantō magis multiplicābantur, et crēscē\-bant: 
 ōderantque fīliōs Isrāēl Ægyptiī, et afflīgēbant \marginpar{illūdere: deridēre}illūdentēs eīs,
@@ -57,30 +69,39 @@ Quæ respondērunt: ``Nōn sunt Hebreæ sīcut Ægyptiæ mulierēs: ipsæ enim o
 Et quia timuērunt obstetrīcēs Deum, ædificāvit eīs domōs.
 Præcēpit ergō Pharaō omnī populō suō, dīcēns: ``Quidquid masculīnī sexūs nātum fuerit, in flūmen prōiicite: quidquid fēminīnī, reservātē.''
 
+\pagebreak
+
+\begin{figure}[p]
+    \hspace*{-2.5cm}
+    \makebox[\linewidth]{
+        \includegraphics[width=1.3\linewidth]{babymoses.jpg}
+    }
+    \caption{\hspace*{-4cm}Infans Moysēs}
+\end{figure}
+
 \section{CAPITULUM SECUNDUM}
 
 \marginpar{stirps, stirpis(m/f): stricto sensu est truncus arboris, ergo etiam origo est generis in familiis}Ēgressus est post hæc vir dē domō Levī: et accēpit uxōrem stirpis suæ.
 Quæ concēpit, et peperit fīlium : et vidēns eum ēlegantem, abscondit tribus mēnsibus.
-\begin{figure}
-    \centering
-    \begin{minipage}[htbp]{0.5\linewidth}
+\marginpar{scirpeus/a/um: ex scirpīs factus}
+\marginpar{linere: rem aliquam liquidam aut mollem alteri superinducere}
+\marginpar{bitūmen, -inis(n): limus pinguis et sulphureus ē terrā emergens pluribus locīs}
+\marginpar{pix, picis (f): rēs ātra quae fit ex liquōre crassō arborum coctō}
+\marginpar{cārex, cāricis (f):  herba acuta et durissima, sparto similis}
+\marginpar{cārectum, -ī (n): locus caricibus plenus}
+
+\begin{figure}[hbp]
+    \begin{minipage}[hbp]{0.5\linewidth}
         \centering
         \includegraphics{fisc}
         \caption{fiscella, -ae(f)}
     \end{minipage}%
-    \begin{minipage}[htbp]{0.5\linewidth}
+    \begin{minipage}[hbp]{0.5\linewidth}
         \centering
         \includegraphics{brush}
         \caption{scirpus, -ī(m)}
     \end{minipage}
 \end{figure}%
-
-\marginpar{scirpeus/a/um: ex scirpīs factus}
-\marginpar{linere: rem aliquam liquidam aut mollem alteri superinducere}
-\marginpar{bitūmen, -inis(n): limus pinguis et sulphureus}
-\marginpar{pix, picis (f): fluxus combustae in taeda sua resinae}
-\marginpar{cārex, cāricis (f):  herba acuta et durissima, sparto similis}
-\marginpar{cārectum, -ī (n): locus caricibus plenus}
 Cumque iam cēlāre nōn posset, sūmpsit fiscellam scirpeam,
 et līnīvit eam bitūmine ac pice:
 posuitque intus īnfantu\-lum, et exposuit eum in cārectō rīpæ flū\-minis,
@@ -89,10 +110,10 @@ Ecce autem dēscendē\-bat fīlia Pharaōnis ut lavārē\-tur in flūmine.\margi
 \marginpar{papyrio, -ōnis (m): locus papyrīs consitus}
 Quæ cum vīdisset fiscellam in papȳ\-riōne,
 mīsit ūnam ē famulābus suīs: et al\-lātam aperiēns,
-cernēnsque in eā parvulum vāgientem,
+cer\-nēnsque in eā parvulum vāgientem,
 miserta eius, ait: ``Dē īnfantibus Hebræōrum est hīc.''
 
-Cui soror puerī: ``Vīs,'' inquit, ``ut vādam, et vōcem tibi mulierem hebræam,
+Cui soror puerī: ``Vīs,'' inquit, ``ut vā\-dam, et vōcem tibi mulierem hebræam,
 quæ nūtr\-īre possit īnfantulum?''
 
 Respondit: ``Vāde.''
