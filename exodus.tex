@@ -1,25 +1,26 @@
-\documentclass[20pt, titlepage, twoside]{extarticle}
+\documentclass[20pt, twoside]{extbook}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{marginnote}
 \usepackage{etoolbox}
 \usepackage{setspace}
-\usepackage{caption}
+\usepackage[font={small,it}]{caption}
 \usepackage{titlesec}
 \usepackage{subfig}
 \usepackage{float}
-\usepackage[section]{placeins}
+%\usepackage[chapter]{placeins}
 \usepackage[latin.classical]{babel}
 
-\captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=none,name={}}
+\captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=none,name={},belowskip=-10pt}
 
-\titleformat{\section}
+
+\titleformat{\chapter}
 {\normalfont\bfseries}
 {}{0em}{}
+\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
 
 \renewcommand{\thefigure}{}
-
 
 \let\oldmarginpar\marginpar
 \renewcommand\marginpar[1]{\-\oldmarginpar[\raggedleft\scriptsize #1]%
@@ -31,18 +32,19 @@
 \newcommand{\rnc}[1]
     {\MakeUppercase{\romannumeral #1}}
 \parskip 1.5ex
+\pagestyle{plain}
 \begin{document}
 
+\chapter{CAPITULUM PRIMUM}
+
 \begin{figure}[p]
-    \hspace*{2.5cm}
+    \hspace*{-2.5cm}
     \makebox[\linewidth]{
-        \includegraphics[width=1.3\linewidth]{midwives}
+        \setlength{\fboxsep}{0pt}
+        \fbox{\includegraphics[width=1.3\linewidth]{midwives}}
     }
-    \caption{\hspace*{4cm}Obstetricēs et Rēx}
+    \caption{\hspace*{-4.5cm}Obstetricēs et Rēx}
 \end{figure}
-
-\section{CAPITULUM PRIMUM}
-
 
 \marginpar{quasi: velut}[In Aegyptō] fīliī Isrāēl crēvērunt, et quasi\marginpar{germināre: emmitere germina (ea quae ex plantīs veniunt: semen, fructus, cēt.)} germinantēs multiplicātī sunt:
 ac rōborātī \marginpar{rōborāre: firmāre; virēs addere}nimis, implēvērunt terram.
@@ -68,19 +70,16 @@ Quæ respondērunt: ``Nōn sunt Hebreæ sīcut Ægyptiæ mulierēs: ipsæ enim o
 \marginpar{cōnfortāre: fortem facere, consolārī}Bene ergō fēcit Deus obstetrīcibus: et crēvit populus, cōnfortātusque est nimis.
 Et quia timuērunt obstetrīcēs Deum, ædificāvit eīs domōs.
 Præcēpit ergō Pharaō omnī populō suō, dīcēns: ``Quidquid masculīnī sexūs nātum fuerit, in flūmen prōiicite: quidquid fēminīnī, reservātē.''
-
-\pagebreak
-
-\begin{figure}[p]
+\begin{figure}[bp]
     \hspace*{-2.5cm}
     \makebox[\linewidth]{
-        \includegraphics[width=1.3\linewidth]{babymoses.jpg}
+        \setlength{\fboxsep}{0pt}
+        \fbox{\includegraphics[width=1.3\linewidth]{babymoses.jpg}}
     }
     \caption{\hspace*{-4cm}Infans Moysēs}
 \end{figure}
 
-\section{CAPITULUM SECUNDUM}
-
+\chapter{CAPITULUM SECUNDUM}
 \marginpar{stirps, stirpis(m/f): stricto sensu est truncus arboris, ergo etiam origo est generis in familiis}Ēgressus est post hæc vir dē domō Levī: et accēpit uxōrem stirpis suæ.
 Quæ concēpit, et peperit fīlium : et vidēns eum ēlegantem, abscondit tribus mēnsibus.
 \marginpar{scirpeus/a/um: ex scirpīs factus}
@@ -90,7 +89,7 @@ Quæ concēpit, et peperit fīlium : et vidēns eum ēlegantem, abscondit tribus
 \marginpar{cārex, cāricis (f):  herba acuta et durissima, sparto similis}
 \marginpar{cārectum, -ī (n): locus caricibus plenus}
 
-\begin{figure}[hbp]
+\begin{figure}[hp]
     \begin{minipage}[hbp]{0.5\linewidth}
         \centering
         \includegraphics{fisc}
@@ -101,7 +100,8 @@ Quæ concēpit, et peperit fīlium : et vidēns eum ēlegantem, abscondit tribus
         \includegraphics{brush}
         \caption{scirpus, -ī(m)}
     \end{minipage}
-\end{figure}%
+\end{figure}
+
 Cumque iam cēlāre nōn posset, sūmpsit fiscellam scirpeam,
 et līnīvit eam bitūmine ac pice:
 posuitque intus īnfantu\-lum, et exposuit eum in cārectō rīpæ flū\-minis,
@@ -171,13 +171,16 @@ ascenditque clā\-mor eōrum ad Deum ab operibus.
 Et audīvit gemitum eōrum,
 \marginpar{pangō, pangere, pepigisse, pactum: constituere, definite statuere}ac recordātus est fœderis quod pepigit cum Abraham, Isaac et Iācōb.
 Et respexit Dominus fīliōs Isrāēl et cognōvit eōs.
-\pagebreak
+
+\chapter{CAPITULUM TERTIUM}
+
 \begin{figure}[h]
     \hspace*{0.5cm}
-    \includegraphics[width=1.3\linewidth]{burning_bush.jpg}
+    \setlength{\fboxsep}{0pt}
+    \fbox{\includegraphics[width=1.3\linewidth]{burning_bush.jpg}}
     \caption{\hspace*{4cm}Rubus Ardēns}
 \end{figure}
-\section{CAPITULUM TERTIUM}
+
 Moysēs autem pāscēbat ovēs Iethrō socerī suī sacerdōtis Madian:
 \marginpar{mināre: cōgere animālia}cumque mināsset gregem ad interiōra dēsertī,
 venit ad montem Deī Horeb.
@@ -252,9 +255,15 @@ Dabōque grātiam populō huic cōram Ægyptiīs:
 \marginpar{vīcīnus/a: qui prope habitat}sed postulābit mulier ā vīcīnā suā
 et ab hospitā suā, vāsa argentea et aurea, ac vestēs:
 \marginpar{spoliāre: capere rēs aliōrum hominum}pōnētisque eās super fīliōs et fīliās vestrās, et spoliābitis Ægyptum.''
-\pagebreak
 
-\section{CAPITULUM QUARTUM}
+\chapter{CAPITULUM QUARTUM}
+
+\begin{figure}[h]
+    \hspace*{0.5cm}
+    \setlength{\fboxsep}{0pt}
+    \fbox{\includegraphics[width=1.3\linewidth]{inn.png}}
+    \caption{\hspace*{4cm}Sephora in Deversōriō}
+\end{figure}
 
 Respondēns Moysēs ait: ``Nōn crēdent mihi, neque audient vōcem meam, sed dīcent:
 Nōn appāruit tibi Dominus.''
@@ -326,12 +335,39 @@ Cui ait Iethrō: ``Vāde in pāce.''
 Dīxit ergō Dominus ad Moysēn in Madiān: ``Vāde, et revertere in Ægyptum,
 mortuī sunt enim omnēs quī quærēbant animam tuam.''
 
+\begin{figure}[hbp]
+        \centering
+        \setlength{\fboxsep}{0pt}
+        \fbox{\includegraphics{asinus}}
+        \caption{asinus, -ī (m)}
+\end{figure}
 Tulit ergō Moysēs uxōrem suam, et fīliōs suōs,
 et imposuit eōs super asinum: reversusque est in Ægyptum,
 portāns virgam Deī in manū suā. Dīxitque eī Dominus revertentī
-in Ægyptum: ``Vidē ut omnia ostenta quæ posuī in manū tuā,
-\marginpar{indūrāre: durum facere}
-faciās cōram Pharaōne: ego indūrābō cor ejus,
-et nōn dīmittet populum. 22 Dīcēsque ad eum : Hæc dīcit Dominus : Fīlius meus prīmōgenitus Isrāēl. 23 Dīxī tibi : Dīmitte fīlium meum ut serviat mihi ; et nōluistī dīmittere eum : ecce ego interficiam fīlium tuum prīmōgenitum. 24 Cumque esset in itinere, in dīversōriō occurrit eī Dominus, et volēbat occīdere eum. 25 Tulit idcircō Sephorā acūtissimam petram, et circumcīdit præpūtium fīliī suī, tetigitque pedēs ejus, et ait : Spōnsus sanguinum tū mihi es. 26 Et dīmīsit eum postquam dīxerat : Spōnsus sanguinum ob circumcīsiōnem. 27 Dīxit autem Dominus ad Aarōn : Vāde in occursum Moȳsī in dēsertum. Quī perrēxit obviam eī in montem Deī, et ōsculātus est eum. 28 Nārrāvitque Moysēs Aarōn omnia verba Dominī quibus miserat eum, et signa quæ mandāverat. 29 Vēnēruntque simul, et congregāvērunt cūnctōs seniōrēs fīliōrum Isrāēl. 30 Locūtusque est Aarōn omnia verba quæ dīxerat Dominus ad Moysēn : et fēcit signa cōram populō, 31 et crēdidit populus. Audiēruntque quod vīsitāsset Dominus fīliōs Isrāēl, et respexisset afflīctiōnem illōrum : et prōnī adōrāvērunt.
+in Ægyptum: ``Vidē ut omnia ostenta quæ posuī in manū tuā
+\marginpar{indūrāre: durum facere}faciās cōram Pharaōne: ego indūrābō cor ejus,
+et nōn dīmittet populum. Dīcēsque ad eum: Hæc
+\marginpar{prīmōgenitus: natū maior}dīcit Dominus: Fīlius meus prīmōgenitus Isrāēl.
+Dīxī tibi: Dīmitte fīlium meum ut serviat mihi;
+et nōluistī dīmittere eum:
+ecce ego interficiam fīlium tuum prīmōgenitum.''
 
+\marginpar{dīversōrium, -ī (n): aedificium in quō hominēs in itinere possunt dormīre}\marginpar{petra, -ae (f): lapis}Cumque esset in itinere, in dīversōriō
+occurrit eī Dominus, et volēbat occīdere eum. 
+Tulit idcircō Sephora acūtissimam petram,
+\marginpar{praepūtium, -ī (n): illa pars puerī quae circumcīditur}et circumcīdit præpūtium fīliī suī, tetigitque pedēs ejus,
+\marginpar{spōnsus/a: quī mox alicui maritus vel uxor erit}et ait: ``Spōnsus sanguinum tū mihi es.''
+Et dīmīsit eum postquam dīxerat: ``Spōn\-sus sanguinum ob circumcīsiōnem.''
+
+Dīxit autem Dominus ad Aarōn: ``Vāde in occursum Moȳsī
+in dēsertum.'' 
+
+Quī perrēxit obviam eī in montem Deī, et ōsculātus est eum.
+Nārrāvitque Moysēs Aarōn omnia verba Dominī quibus miserat eum,
+et signa quæ mandāverat. Vēn\-ēruntque simul, et congregāvērunt
+cūnctōs seniōrēs fīliōrum Isrāēl.
+Locūtusque est Aar\-ōn omnia verba quæ dīxerat Dominus ad Moysēn: et
+fēcit signa cōram populō, et crēdidit populus.
+Audiēruntque quod vīsit\-āsset Dominus fīliōs Isrāēl,
+\marginpar{prōnus/a/um: iacēns in pectore}et respexisset afflīctiōnem illōrum: et prōnī adōrāvērunt.
 \end{document}
