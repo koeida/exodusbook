@@ -14,11 +14,23 @@
 
 \captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=none,name={},belowskip=-10pt}
 
+\newcommand{\kimg}[2]{%
+    \begin{figure}[hbp]
+            \centering
+            \setlength{\fboxsep}{0pt}
+            \fbox{\includegraphics{#1}}
+            \caption{#2}
+    \end{figure}}
 
 \titleformat{\chapter}
 {\normalfont\bfseries}
 {}{0em}{}
 \titlespacing*{\chapter}{0pt}{-50pt}{20pt}
+
+\titleformat{\section}
+{\normalfont\bfseries}
+{}{0em}{}
+\titlespacing*{\section}{0pt}{5pt}{10pt}
 
 \renewcommand{\thefigure}{}
 
@@ -27,13 +39,15 @@
 {\raggedright\scriptsize #1}}
 
 \usepackage[top=1.5cm, bottom=2cm, outer=7cm, inner=2cm, heightrounded, marginparwidth=6.25cm, marginparsep=0.5cm]{geometry}
-\marginparpush 0.5ex
+\marginparpush 1ex
 \setlength{\columnsep}{1cm}
 \newcommand{\rnc}[1]
     {\MakeUppercase{\romannumeral #1}}
 \parskip 1.5ex
 \pagestyle{plain}
 \begin{document}
+
+\mainmatter
 
 \chapter{CAPITULUM PRIMUM}
 
@@ -54,7 +68,7 @@ Et ait ad populum suum: ``Ecce, populus fīliōrum Isrāēl multus, et fortior n
 \marginpar{ingruere: cum vi accedere}Venīte, sapienter opprimāmus eum, nē forte multiplicētur: et sī ingruerit contrā nōs bellum, addātur inimīcīs nostrīs, expugnātisque nōbīs ēgredi\-ātur dē terrā.''\marginpar{\begin{center}\includegraphics{tab}\\tabernaculum, -ī (n)\end{center}tabernaculum quoque significat aedificium sacrum, ad formam tabernaculī}
 
 \marginpar{praeposuit eīs magistrōs operum: dedit magistrīs potestatem super opera fīliōrum Isrāēl}
-Præposuit itaque eīs magistrōs operum, ut aff-līgerent eōs oneribus: 
+Præposuit itaque eīs magistrōs operum, ut afflīgerent eōs oneribus: 
 ædificaveruntquē urbēs tabernāculōrum Pharaōnī, Phithom et Ramessēs.
 Quantōque opprimēbant eōs, tantō magis multiplicābantur, et crēscē\-bant: 
 ōderantque fīliōs Isrāēl Ægyptiī, et afflīgēbant \marginpar{illūdere: deridēre}illūdentēs eīs,
@@ -70,6 +84,45 @@ Quæ respondērunt: ``Nōn sunt Hebreæ sīcut Ægyptiæ mulierēs: ipsæ enim o
 \marginpar{cōnfortāre: fortem facere, consolārī}Bene ergō fēcit Deus obstetrīcibus: et crēvit populus, cōnfortātusque est nimis.
 Et quia timuērunt obstetrīcēs Deum, ædificāvit eīs domōs.
 Præcēpit ergō Pharaō omnī populō suō, dīcēns: ``Quidquid masculīnī sexūs nātum fuerit, in flūmen prōiicite: quidquid fēminīnī, reservātē.''
+
+\section{Quaestiō Augustīnī}
+
+{\it Dē obstetrīcum mendāciō, quō fefellērunt Pharaōnem, nē
+occīderent masculōs Isrā-ēlītās quandō nāscēbantur, dīcentēs
+nōn ita pārēre mulierēs Hebraēās sīcut pariē\-bant Aegyptiae:}
+
+Quaerī solet utrum tālia mendācia approbāta sint
+auctōritāte dīvīnā, quandōqui\-dem scrīptum est Deum
+bene fēcisse obstetrīcibus: sed utrum prō misericordiā
+ignōs\-cēbat mendāciō; an et ipsum mendā\-cium dignum
+praemiō iūdicābat, incertum est.
+
+\marginpar{vīvificāre: vivum facere, vitam dare}Aliud enim faciēbant obstetrīcēs vīvific\-andō
+īnfantēs parvulōs, aliud Pharaō\-nī mentiendō: nam
+in illīs vīvificandīs opus misericordiae fuit; mendāciō
+vērō illō prō sē ūtēbantur, nē nocēret illīs
+Pharaō, quod potuit nōn ad laudem, sed ad veniam pertinēre.
+
+\marginpar{id est, ut ita dīcam, haec fābula nōn dat licentiam mentiendī}Neque hinc auctōritātem ad mentiendum esse prōpositam
+\marginpar{eōrum: sanctōrum}mihi vidētur eīs dē quibus dictum est: ``Et nōn est
+inventum in ōre eōrum mendācium.''
+
+Quōrumdam enim vīta longē
+īnferior ā professiōne sān\-ctōrum, sī habeat ista
+men\-dāciōrum pec\-cāta, prōvectū ipsō et indole feruntur,
+\marginpar{{\bf nōrunt} = nōvērunt}praesertim sī beneficia dīvīna nōndum nōrunt exspectāre
+coelestia, sed cir\-cā terrēna occupantur.
+
+\marginpar{conversātiō, -ōnis (f): modus vīvendī}Quī autem ita vīvunt, ut eōrum conversātiō,
+sīcut dīcit Apostolus,
+in coelīs sit, nōn eōs exīstimō linguae suae modum,
+\marginpar{non exīstimō eōs debēre formāre modum linguae suae exemplō illō obstetrīcum}
+quantum ad vēritātem prōmendam attinet falsitātemque vītandam,
+exemplō illō obstetrīcum dēbēre fōrmāre.
+
+\marginpar{disserere: sermōnem īnstituere dē rē aliquā, dīcere, disputāre, tractāre}Sed dīligentius dē hāc quaestiōne disserendum est,
+propter alia exempla quae in Scrīptūrīs reperiuntur.
+
 \begin{figure}[bp]
     \hspace*{-2.5cm}
     \makebox[\linewidth]{
@@ -172,6 +225,27 @@ Et audīvit gemitum eōrum,
 \marginpar{pangō, pangere, pepigisse, pactum: constituere, definite statuere}ac recordātus est fœderis quod pepigit cum Abraham, Isaac et Iācōb.
 Et respexit Dominus fīliōs Isrāēl et cognōvit eōs.
 
+\section{Quaestiō Augustīnī}
+
+{\it Dē factō Moȳsī, cum occīdit Aegyptium ad dēfendendōs
+frātrēs suōs: utrum indolēs in eō laudābilis fuerit,
+\marginpar{admittere: permitter}\marginpar{ūber, ūberis (n): fertilitas, fecunditas}
+\marginpar{ferācitas, -ātis (f): fertilitas, fecunditas}quā hoc pec\-cātum admīserit, sīcut solet ūber terrae,
+\marginpar{id est, vidimus terram herbārum inūtilium plēnam et dicimus, ``Ecce! Tam fertilis terra!'' -- res mala (herbae inūtiles) est signum reī bonae (fertilitatis)}etiam ante ūtilia sēmina, quādam her\-bārum quamvīs
+inūtilium ferācitāte lau\-dārī;
+an omnīnō ipsum factum iustificandum sit.}
+
+\marginpar{lēgitimus/a/um: qui secundum leges est}Quod ideō nōn vidētur, quia nūllam ad\-hūc lēgitimam
+\marginpar{dīvīnitus (adv): ā Deō}potestātem gerēbat, nec acceptam dīvīnitus, nec
+hūmānā societāte ōr\-dinātam.
+
+Tamen, sīcut Stephanus
+dīcit in Āctibus Apostolōrum, putābat intellegere
+frātrēs su\-ōs, quod per eum Deus daret illīs
+salūtem: ut per hoc testimōnium videātur
+Moysēs iam dīvīnitus admonitus (quod
+Scrīptūra eō locō tacet) hoc audēre potuisse.
+
 \chapter{CAPITULUM TERTIUM}
 
 \begin{figure}[h]
@@ -255,6 +329,8 @@ Dabōque grātiam populō huic cōram Ægyptiīs:
 \marginpar{vīcīnus/a: qui prope habitat}sed postulābit mulier ā vīcīnā suā
 et ab hospitā suā, vāsa argentea et aurea, ac vestēs:
 \marginpar{spoliāre: capere rēs aliōrum hominum}pōnētisque eās super fīliōs et fīliās vestrās, et spoliābitis Ægyptum.''
+
+\section{Quaestiō Augustinī}
 
 \chapter{CAPITULUM QUARTUM}
 
@@ -345,7 +421,7 @@ Tulit ergō Moysēs uxōrem suam, et fīliōs suōs,
 et imposuit eōs super asinum: reversusque est in Ægyptum,
 portāns virgam Deī in manū suā. Dīxitque eī Dominus revertentī
 in Ægyptum: ``Vidē ut omnia ostenta quæ posuī in manū tuā
-\marginpar{indūrāre: durum facere}faciās cōram Pharaōne: ego indūrābō cor ejus,
+\marginpar{indūrāre: durum facere}faciās cōram Pharaōne: ego indūrābō cor eius,
 et nōn dīmittet populum. Dīcēsque ad eum: Hæc
 \marginpar{prīmōgenitus: natū maior}dīcit Dominus: Fīlius meus prīmōgenitus Isrāēl.
 Dīxī tibi: Dīmitte fīlium meum ut serviat mihi;
@@ -354,7 +430,7 @@ ecce ego interficiam fīlium tuum prīmōgenitum.''
 
 \marginpar{dīversōrium, -ī (n): aedificium in quō hominēs in itinere possunt dormīre}\marginpar{petra, -ae (f): lapis}Cumque esset in itinere, in dīversōriō
 occurrit eī Dominus, et volēbat occīdere eum. 
-Tulit idcircō Sephora acūtissimam petram,
+\marginpar{idcircō: proptereā, ideō}Tulit idcircō Sephora acūtissimam petram,
 \marginpar{praepūtium, -ī (n): illa pars puerī quae circumcīditur}et circumcīdit præpūtium fīliī suī, tetigitque pedēs ejus,
 \marginpar{spōnsus/a: quī mox alicui maritus vel uxor erit}et ait: ``Spōnsus sanguinum tū mihi es.''
 Et dīmīsit eum postquam dīxerat: ``Spōn\-sus sanguinum ob circumcīsiōnem.''
@@ -370,4 +446,121 @@ Locūtusque est Aar\-ōn omnia verba quæ dīxerat Dominus ad Moysēn: et
 fēcit signa cōram populō, et crēdidit populus.
 Audiēruntque quod vīsit\-āsset Dominus fīliōs Isrāēl,
 \marginpar{prōnus/a/um: iacēns in pectore}et respexisset afflīctiōnem illōrum: et prōnī adōrāvērunt.
+
+\chapter{CAPITULUM QUARTUM}
+
+Post hæc ingressī sunt Moysēs et Aarōn,
+et dīxērunt Pharaōnī: ``Hæc dīcit Dominus Deus Isrāēl:
+Dīmitte populum meum ut sacrificet mihi in dēsertō.''
+
+At ille respondit: ``Quis est Dominus,
+ut audiam vōcem ejus, et dīmittam Isrāēl?
+Nesciō Dominum, et Isrāēl nōn dīmittam.''
+
+Dīxēruntque: ``Deus Hebræōrum vocāvit nōs,
+ut eāmus viam trium diērum in sōlitū\-dinem,
+et sacrificēmus Dominō Deō nostrō:
+\marginpar{pestis, -is (f): aliquid malum - morbus, calamitas, cēt.}nē forte accidat nōbīs pestis aut gladius.''
+
+\marginpar{sollicitāre: invitāre, allicere}Ait ad eōs rēx Ægyptī: ``Quārē Moysēs et Aarōn sollicitātis populum ab operibus suīs? Īte ad onera vestra.''
+
+Dīxitque Pharaō: ``Multus est populus terræ:
+\marginpar{succrēscere (sub + crēscere): ab īmō crēscere}vidētis quod turba succrēverit:
+quan\-tō magis sī dederītis eīs requiem ab operibus?''
+
+Præcēpit ergō in diē illō præfectīs operum
+et exāctōribus populī, dīcēns: 
+``Nēquā\-quam ultrā dabitis paleās populō ad cōnfici\-endōs laterēs,
+sīcut prius: sed ipsī vadant, et colligant stipulās.
+Et mēnsūram laterum, quam prius faciēbant,
+impōnētis super eōs, nec minuētis quidquam:
+\marginpar{idcircō: proptereā, ideō}vacant enim, et idcircō vōciferantur, dīcentēs:
+Eāmus, et sacrificēmus Deō nostrō.
+Opprimantur operibus, et expleant ea:
+ut nōn acquiēscant verbīs mendācibus.''
+
+\marginpar{praefectus, -ī (m): qui alicui rei vel negotio praepositus est}Igitur ēgressī præfectī operum et exāctōrēs ad populum,
+\marginpar{exāctōr, -ī: qui facit ut opera perficiantur}
+dīxērunt: Sīc dīcit Pharaō: ``Nōn dō vōbīs paleās: īte,
+et colligite sīcubi invenīre poteritis,
+nec minuētur quidquam dē opere vestrō.''
+
+\kimg{palea}{paleam colligentes}
+Dispersusque est populus per omnem terram Ægyptī ad colligendās paleās.
+Præfectī quoque operum
+\marginpar{quotīdiē: cotīdiē}īnstābant, dīcentēs: ``Complētē opus vestrum quotīdiē,
+ut prius facere solēbātis quandō dabantur vōbīs paleæ.''
+
+\begin{figure}[H]
+    \begin{minipage}[]{0.5\linewidth}
+        \centering
+        \includegraphics{flagellum}
+        \caption{flagellum, -ī (n)}
+    \end{minipage}%
+    \begin{minipage}[]{0.5\linewidth}
+        \centering
+        \includegraphics{later}
+        \caption{later, lateris (m)}
+    \end{minipage}
+\end{figure}
+\marginpar{flagellāre: flagellīs pulsāre}Flagellātīque sunt quī præerant operibus fīliōrum Isrāēl,
+ab exāctōribus Pharaōnis, dīcentibus: ``Quārē nōn implētis
+mēnsūram laterum sīcut prius, nec heri, nec hodiē?''
+
+Vēnēruntque præpositī fīliōrum
+\marginpar{vōciferārī: vehementer exclamāre}Isrāēl, et vōciferātī sunt ad Pharaōnem
+dīcentēs: \linebreak``Cūr ita agis contrā servōs tuōs?
+Paleæ nōn dantur nōbīs, et laterēs similiter
+\marginpar{ēn: ecce}imperantur: ēn famulī tuī flagellīs cædimur,
+et iniūstē agitur contrā populum tuum.''
+
+\marginpar{idcircō: proptereā, ideō}Quī ait: ``Vacātis ōtiō,
+et idcircō dīcitis: 
+Eāmus, et sacrificēmus Dominō. 
+\marginpar{operārī: laborāre}Īte ergō, et operāminī: paleæ
+\marginpar{cōnsuētus numerus: numerus quod semper antea erat}nōn dabuntur vōbīs, et reddētis cōnsuētum numerum laterum.''
+
+\marginpar{eō quod: quia}Vidēbantque sē præpositī fīliōrum Isrāēl
+in malō, eō quod dīcerētur eīs: ``Nōn minuētur quidquam
+dē lateribus per singulōs diēs.''
+
+Occurrēruntque Moȳsī et Aarōn, quī stā\-bant ex adversō,
+ēgredientibus ā Pharaōne: et dīxērunt
+ad eōs: ``Videat Dominus et jūdicet, quoniam
+\marginpar{fœtēre: male olēre (rēs olēns afficit nāsum)}fœtēre fēcistis odōrem nostrum cōram Pharaōne
+\marginpar{præbēre: dāre}et servīs eius, et præbuistis eī
+gladium, ut occīderet nōs.'' 
+
+Reversusque est Moysēs ad Dominum, et ait: ``Domine, cūr
+\marginpar{ex eō: ex eō (tempore)}afflīxistī populum istum? Quārē mīsistī mē? Ex eō
+enim quō ingressus sum ad Pharaōnem ut
+loquerer in nōmine tuō, afflīxit populum
+tuum: et nōn līberāstī eōs.''
+
+\chapter{CAPITULUM SEXTUM}
+
+Dīxitque Dominus ad Moysēn: ``Nunc vidē\-bis quæ factūrus
+sim Pharaōnī: per manum enim fortem dīmittet
+\marginpar{rōbustus/a/um: durus, rigidus, valens}eōs, et in manū rōbustā ēiiciet illōs
+dē terrā suā.''
+
+Locūtusque est Dominus ad Moysēn dī\-cēns: ``Ego Dominus
+quī appāruī Abraham, Isaac et Iācōb
+in Deō omnipotente: et nō\-men meum Adonaī
+\marginpar{pangō, pangere, pepigisse, pactum: constituere, definite statuere}\marginpar{foedus, foederis (n): res inter duōbus hominēs vel civitatēs constituta} nōn indicāvī eīs. Pepigīque fœdus cum eīs, ut
+darem eīs terram Chanaan, terram peregrīnātiōnis
+eōrum, in quā fuērunt advenæ. 
+Ego audīvī gemitum fīli\-ōrum Isrāēl, quō
+Ægyptiī oppressērunt e\-ōs: et recordātus
+sum pactī meī. Ideō dīc fīliīs Isrāēl: Ego Dominus
+\marginpar{ergastulum, -ī: carcer rusticus}quī ēdūcam vōs dē ergastulō Ægyptiōrum, et
+ēruam dē servitūte, ac redimam in brāchiō
+excelsō et jū\-diciīs magnīs. Et assūmam vōs mihi
+in populum, et erō vester Deus: et sciētis quod ego
+sum Dominus Deus vester quī ēdūxerim vōs dē
+ergastulō Ægyptiōrum, et indūxerim in terram, super quam
+levāvī manum meam ut darem eam Abraham, Isaac
+et Iācōb: da\-bōque illam vōbīs possidendam. 
+Ego Dominus.''
+
 \end{document}
