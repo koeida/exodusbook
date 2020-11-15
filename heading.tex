@@ -1,0 +1,121 @@
+\documentclass[20pt, twoside]{extbook}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{changepage}
+\usepackage{marginnote}
+\usepackage{etoolbox}
+\usepackage{setspace}
+\usepackage[font={small,it}]{caption}
+\usepackage{titlesec}
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage[latin.classical]{babel}
+\usepackage{wallpaper}
+\usepackage{fancyhdr}
+\definecolor{titlepagecolor}{cmyk}{0,.14,.34,.47}
+\definecolor{maincolor}{cmyk}{0,0,0,0}
+\definecolor{namecolor}{cmyk}{0,.33,0.98,0.82} 
+
+\pagestyle{plain}
+
+\captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=none,name={},belowskip=-10pt}
+
+%\newcommand{\adjustimg}{% Horizontal adjustment of image
+%  \checkoddpage%
+%  \ifoddpage\hspace*{\dimexpr\evensidemargin-\oddsidemargin}\else\hspace*{-\dimexpr\evensidemargin-\oddsidemargin}\fi%
+%}
+%\newcommand{\centerimg}[2][width=\textwidth]{% Center an image
+%    \makebox[\textwidth]{\adjustimg\includegraphics[#1]{#2}}%
+%}
+
+
+\newcommand{\titleimg}[1]{%
+    \begin{figure}[t!]
+        \vspace*{-2.5cm}
+        \hspace*{-2.32cm}
+        \setlength{\fboxsep}{0pt}
+        \fbox{\includegraphics[width=\paperwidth]{#1}}
+        %\caption{\hspace*{4cm}Rubus Ardēns}
+    \end{figure}
+    \vspace*{-2.0cm}
+}
+
+\newcommand{\ki}[1]{%
+    \begin{figure}[h!]
+            %\centering
+            %\setlength{\fboxsep}{0pt}
+            \includegraphics{#1}
+    \end{figure}}
+
+\newcommand{\kimg}[2]{%
+    \begin{figure}[h]
+            \centering
+            \setlength{\fboxsep}{0pt}
+            \fbox{\includegraphics{#1}}
+            \caption{#2}
+    \end{figure}}
+
+\newcommand{\kimgnb}[2]{%
+    \begin{figure}[h]
+            \centering
+            \includegraphics{#1}
+            \caption{#2}
+    \end{figure}}
+    
+\newcommand{\chapimg}[2]{%
+    \begin{figure}[ht]
+            \centering
+            \setlength{\fboxsep}{0pt}
+            \fbox{\includegraphics{#1}}
+            \caption{#2}
+    \end{figure}}
+
+\newcommand{\wimgr}[2]{%
+    \begin{wrapfigure}{hR}{0.25\textwidth}
+            \centering
+            \setlength{\fboxsep}{0pt}
+            \fbox{\includegraphics[width=0.35\textwidth]{#1}}
+            \caption{#2}
+    \end{wrapfigure}}
+
+\newcommand{\wimgl}[2]{%
+    \begin{wrapfigure}{L}{0.25\textwidth}
+            \centering
+            \setlength{\fboxsep}{0pt}
+            \fbox{\includegraphics[width=0.35\textwidth]{#1}}
+            \caption{#2}
+    \end{wrapfigure}}
+
+\newcommand{\mimg}[2]{%
+    \marginpar{\begin{center}\includegraphics{#1}\\#2\vspace*{-0.5cm}\end{center}}}
+
+
+\titleformat{\chapter}
+{\normalfont\bfseries}
+{}{0em}{}
+\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
+
+\titleformat{\section}
+{\normalfont\bfseries}
+{}{0em}{}
+\titlespacing*{\section}{0pt}{5pt}{10pt}
+
+\renewcommand{\thefigure}{}
+
+\let\oldmarginpar\marginpar
+\renewcommand\marginpar[1]{\oldmarginpar[\raggedleft\tiny #1]%
+{\raggedright\tiny #1}}
+
+\newcommand{\mpp}[2]{%
+    \marginpar{{\bf #1}#2}}
+
+%\usepackage[showframe]{geometry}
+\usepackage[]{geometry}
+\marginparpush 0.5ex
+\setlength{\columnsep}{1cm}
+\newcommand{\rnc}[1]
+    {\MakeUppercase{\romannumeral #1}}
+\parskip 0.5ex
+%\pagestyle{empty}
