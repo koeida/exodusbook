@@ -33,8 +33,8 @@
 
 \newcommand{\titleimg}[1]{%
     \begin{figure}[t!]
-        \vspace*{-2.5cm}
-        \hspace*{-2.32cm}
+        \vspace*{-2.2cm}
+        \hspace*{-2.31cm}
         \setlength{\fboxsep}{0pt}
         \fbox{\includegraphics[width=\paperwidth]{#1}}
         %\caption{\hspace*{4cm}Rubus Ardēns}
@@ -48,6 +48,9 @@
             %\setlength{\fboxsep}{0pt}
             \includegraphics{#1}
     \end{figure}}
+
+\newcommand{\lexentry}[2]{%
+    {\bf #1} #2\\}
 
 \newcommand{\kimg}[2]{%
     \begin{figure}[h]
@@ -109,7 +112,11 @@
 {\raggedright\tiny #1}}
 
 \newcommand{\mpp}[2]{%
-    \marginpar{{\bf #1}#2}}
+    \marginpar{{\bf #1} #2}}
+
+\newcommand{\mktitle}[1]{%
+    {\begin{center}\large\textsc{\underline{#1}}\end{center}}}
+
 
 %\usepackage[showframe]{geometry}
 \usepackage[]{geometry}

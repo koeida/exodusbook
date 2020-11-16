@@ -1,2 +1,2 @@
 #! /bin/sh
-grep -oP "(?<=marginpar{).*?(?=})" exodus.tex | grep "[:]" | sort -u | sed 's/\([a-zA-ZāēīōūĀĒĪŌŪ \+<$/()\.,-]*:\)/{\\bf \1}/g' | sed 's/$/\n\n/g' > lexicon.tex
+cat cap*.tex qa*.tex | grep -oP "mpp{.*?}{.*?}" | grep "[:]" | sort -u | sed 's/mpp/\\lexentry/g' > lexicon.tex
