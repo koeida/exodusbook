@@ -17,8 +17,21 @@
 \definecolor{titlepagecolor}{cmyk}{0,.14,.34,.47}
 \definecolor{maincolor}{cmyk}{0,0,0,0}
 \definecolor{namecolor}{cmyk}{0,.33,0.98,0.82} 
+\extrafloats{200}
 
-\pagestyle{plain}
+\usepackage{xpatch}
+\xpretocmd\headrule{\color{red}}{}{\PatchFailed}
+
+%\pagestyle{plain}
+
+\pagestyle{fancy}
+\lhead{\bf\chaptername\hspace{8pt}\thechapter}
+\chead{}
+\rhead{\thepage}
+\cfoot{} % get rid of the page number
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0pt}
+
 
 \captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=none,name={},belowskip=-10pt}
 
@@ -34,7 +47,7 @@
 \newcommand{\titleimg}[1]{%
     \begin{figure}[t!]
         \vspace*{-2.2cm}
-        \hspace*{-2.31cm}
+        \hspace*{-2.305cm}
         \setlength{\fboxsep}{0pt}
         \fbox{\includegraphics[width=\paperwidth]{#1}}
         %\caption{\hspace*{4cm}Rubus Ardēns}
@@ -92,7 +105,7 @@
     \end{wrapfigure}}
 
 \newcommand{\mimg}[2]{%
-    \marginpar{\begin{center}\includegraphics{#1}\\#2\vspace*{-0.5cm}\end{center}}}
+    \marginpar{\begin{center}\includegraphics{#1}\\{\bf #2}\vspace*{-0.5cm}\end{center}}}
 
 
 \titleformat{\chapter}
@@ -115,7 +128,7 @@
     \marginpar{{\bf #1} #2}}
 
 \newcommand{\mktitle}[1]{%
-    {\begin{center}\large\textsc{\underline{#1}}\end{center}}}
+    {\begin{center}\large\textsc{\bfseries\underline{#1}}\end{center}}}
 
 
 %\usepackage[showframe]{geometry}
