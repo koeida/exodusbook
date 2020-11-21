@@ -3,6 +3,12 @@ cap 2 get better well image
 cap 2 canalis img
 cap 4 leprosus def
 
+grep sacrificium 
+
 readthrough for proper names that maybe we can gloss
 
 the snake image is noncommercial; replace it
+
+golden haggadah:
+http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_27210_f001r
+f.10v: burning bush, talking with israelites! w/snake
