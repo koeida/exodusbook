@@ -1,4 +1,4 @@
-\documentclass[20pt, twoside]{extbook}
+\documentclass[14pt,twoside, openany]{extbook}
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{multicol}
@@ -7,6 +7,7 @@
 \usepackage{etoolbox}
 \usepackage{setspace}
 \usepackage[font={small,it}]{caption}
+\usepackage{romannum}
 \usepackage{titlesec}
 \usepackage{subfig}
 \usepackage{wrapfig}
@@ -24,13 +25,6 @@
 
 %\pagestyle{plain}
 
-\pagestyle{fancy}
-\lhead{\bf\chaptername\hspace{8pt}\thechapter}
-\chead{}
-\rhead{\thepage}
-\cfoot{} % get rid of the page number
-\renewcommand{\headrulewidth}{1pt}
-\renewcommand{\footrulewidth}{0pt}
 
 
 \captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=none,name={},belowskip=-10pt}
@@ -47,12 +41,16 @@
 \newcommand{\titleimg}[1]{%
     \begin{figure}[t!]
         \vspace*{-2.2cm}
-        \hspace*{-2.305cm}
+        \checkoddpage\ifoddpage%
+        \hspace*{-2.405cm}%
+        \else%
+        \hspace*{-5.805cm}%
+        \fi%
         \setlength{\fboxsep}{0pt}
-        \fbox{\includegraphics[width=\paperwidth]{#1}}
+        \fbox{\includegraphics[width=6.5in]{#1}}
         %\caption{\hspace*{4cm}Rubus Ardēns}
     \end{figure}
-    \vspace*{-2.0cm}
+    \vspace*{-1.25cm}
 }
 
 \newcommand{\ki}[1]{%
@@ -121,7 +119,7 @@
 \renewcommand{\thefigure}{}
 
 \let\oldmarginpar\marginpar
-\renewcommand\marginpar[1]{\oldmarginpar[\raggedleft\tiny #1]%
+\renewcommand\marginpar[1]{\oldmarginpar[\raggedleft\tiny #1]% scriptsize
 {\raggedright\tiny #1}}
 
 \newcommand{\mpp}[2]{%
@@ -132,7 +130,7 @@
 
 
 %\usepackage[showframe]{geometry}
-\usepackage[]{geometry}
+\usepackage[paperwidth=6in, paperheight=9in]{geometry}
 \marginparpush 0.5ex
 \setlength{\columnsep}{1cm}
 \newcommand{\rnc}[1]

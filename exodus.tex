@@ -13,11 +13,33 @@
 
 \pagecolor{maincolor}
 \mainmatter
-\newgeometry{top=1.5cm, bottom=3cm, outer=3cm, inner=3cm}
 
-%\input{pref.tex}
+%\fancyhead{}
+%\fancyhead[R]{\bf\hspace{4pt}\thepage}
+%\fancyhead[L]{\bf\hspace{4pt}Cap. \Romannum{\thechapter}}
+%\chead{}
+%\rhead{\thechapter}
+%\cfoot{} % get rid of the page number
 
-\newgeometry{top=2cm, bottom=2cm, outer=7cm, inner=2cm, heightrounded, marginparwidth=6.25cm, marginparsep=0.5cm}
+\newgeometry{top=0.75in, bottom=1.0in, outer=0.4in, inner=0.4in, heightrounded}
+
+
+%\pagestyle{plain}
+\input{pref.tex}
+
+\newgeometry{top=0.75in, bottom=1.0in, outer=1.75in, inner=0.4in, heightrounded, 
+marginparwidth=3.5cm, marginparsep=0.5cm}
+
+\pagestyle{fancy}
+\fancyhead{}
+%\fancyhead[R]{\bf\hspace{4pt}\thepage}
+%\fancyhead[L]{\bf\hspace{4pt}\thepage}
+%\fancyhead[L]{\bf\hspace{4pt}Cap. \Romannum{\thechapter}}
+\chead{}
+%\rhead{\thechapter}
+\cfoot{} % get rid of the page number
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0pt}
 
 \input{cap1.tex}
 %\input{qa1.tex}
@@ -39,8 +61,21 @@
 \input{cap7.tex}
 %\input{qa7.tex}
 
+\input{cap8.tex}
+
 \chapter{}
-\newgeometry{top=2cm, bottom=3cm, outer=3cm, inner=3cm}
+% \newgeometry{top=0.75in, bottom=1.0in, outer=1.75in, inner=0.4in, heightrounded, 
+% marginparwidth=3.5cm, marginparsep=0.5cm}
+
+\newgeometry{top=0.75in, bottom=3cm, outer=3cm, inner=3cm}
+
+\pagestyle{fancy}
+\fancyhead{}
+\chead{}
+%\rhead{\thechapter}
+\cfoot{} % get rid of the page number
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0pt}
 {\tiny
     \begin{flushleft}
     \twocolumn
