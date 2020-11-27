@@ -2,6 +2,9 @@ ca2 2 papyrius def
 cap 2 get better well image
 cap 2 canalis img
 cap 4 leprosus def
+cap 9: ulcus def
+cap 9: et misit pharao ad videndum
+cap 9: in hac vice
 
 grep sacrificium 
 
