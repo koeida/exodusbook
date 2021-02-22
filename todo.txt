@@ -70,3 +70,6 @@ mūtuō is not in llpsi
 need an image for cap 18: maybe the james tissot painting of jethro and moses?
 
 coetum needs def at beginning of cap 12
+
+during the read-through you need to look for words that are obviously not in llpsi
+like, why didn't sapphīrinī get caught by your software?
