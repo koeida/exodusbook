@@ -73,3 +73,5 @@ coetum needs def at beginning of cap 12
 
 during the read-through you need to look for words that are obviously not in llpsi
 like, why didn't sapphīrinī get caught by your software?
+
+nēquitia has a kind of crappy definition
