@@ -81,3 +81,9 @@ messed up note placement on onus, oneris in cap 1
 Macron Checks:
 CAP 1 CHECKED
 CAP 2 CHECKED
+
+cultus needs a def, it's used a lot, even in other definitions
+
+note for: reversi sunt tam Aarōn (finis 31)
+
+caps after colons
