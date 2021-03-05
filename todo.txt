@@ -1,5 +1,3 @@
-ca2 2 papyrius def
-cap 2 get better well image
 cap 2 canalis img
 cap 4 leprosus def
 cap 9: ulcus def
