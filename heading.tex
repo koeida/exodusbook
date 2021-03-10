@@ -43,7 +43,7 @@
 
 \newcommand{\titleimg}[1]{%
     \begin{figure}[t!]
-        \vspace*{-2.35cm}
+        \vspace*{-3cm}
         \checkoddpage\ifoddpage%
         \hspace*{-2.405cm}%
         \else%
@@ -130,7 +130,7 @@
 {\raggedright\tiny #1}}
 
 \newcommand{\mpp}[2]{%
-    \marginpar{{\bf #1} #2}}
+    \marginpar{\setstretch{1}\textbf{#1} #2}}
 
 \newcommand{\mktitle}[1]{%
     {\begin{center}\large\textsc{\bfseries\underline{#1}}\end{center}}}
@@ -145,4 +145,5 @@
 \newcommand{\rnc}[1]
     {\MakeUppercase{\romannumeral #1}}
 \parskip 0.5ex
+\setstretch{1.15}
 %\pagestyle{empty}

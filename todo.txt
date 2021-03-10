@@ -1,80 +1,40 @@
-cap 2 canalis img
-cap 4 leprosus def
-cap 9: ulcus def
-cap 9: et misit pharao ad videndum
-cap 9: in hac vice
+Words I use everywhere that I have to figure something out for:
+    * sacrificium
+    * dude you use sacer/ra/rum everywhere and you don't define it
+    * you use pertinens/etc everywhere and it's not in llpsi
 
-grep sacrificium 
+readthrough checks:
+    readthrough for proper names that maybe we can gloss
 
-readthrough for proper names that maybe we can gloss
+write initial chapter going over: 
+    * hard-to-gloss words and quod/quia/quoniam clauses
+    * in monumentum?
+    * in fīliīs Isrāēl?
+    * common proper nouns that are irregular or indeclinable (Moyses, Israel, etc)
+    * herba
 
+images:
 the chapter 6 image doesn't seem to have anything to do with the text.
-
-"caput" at top of page, but "capitulum" throughout
+the chapter 6 art kinda sucks
 
 golden haggadah:
 http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_27210_f001r
 f.10v: burning bush, talking with israelites! w/snake
 
-"ut scias quoniam" in cap 8 and elsewhere could use a marginal note
-
-ethiopian church art
-
-header lines don't line up
-
-what do I do with the double-i words -- they don't look right. Are they
-right? etc
-
-ch 9: ligna = plants
-
-margin notes for lots of the quod constructions and other postclassical things
-    * in monumentum
-    * in fīliīs Isrāēl
-
-get a picture for mola
-
-rītus def
-
 lol celebrare def cap 12
-lol solemnis cap 12
 not certain about festivitas cap 12
-
-is there a name for all the -tiō nouns? Can I give a description/example and gloss them by that name?
-relatedly, Phase in cap 12 means transitus, id est transitio
-
-titleimage alignment is all kinds of messed up on left pages
-
-the chapter 6 art kinda sucks
-
-dude you use sacer/ra/rum everywhere and you don't define it
-
-aperire vulvam becoming aperire ulvam wtf
-
-comedere isnt in roma aeterna, do a search throughout
-coetus/a/um too
-mēnsī, mēnsūra too
 
 proper names -- make sure the macrons are actually correct
 
 difficult-to-define words that I want to be able to use liberally.
 Maybe make a chapter where they are defined and mark them throughout the text.
-* liquor
-* mensura
 
 cap16 verse 32: wtf does retro mean here????
 
-mūtuō is not in llpsi
-
 need an image for cap 18: maybe the james tissot painting of jethro and moses?
-
-coetum needs def at beginning of cap 12
 
 during the read-through you need to look for words that are obviously not in llpsi
 like, why didn't sapphīrinī get caught by your software?
-
-nēquitia has a kind of crappy definition
-
-messed up note placement on onus, oneris in cap 1
 
 Macron Checks:
 CAP 1 CHECKED
@@ -85,3 +45,5 @@ cultus needs a def, it's used a lot, even in other definitions
 note for: reversi sunt tam Aarōn (finis 31)
 
 caps after colons
+
+there should be page numbers and chapter numbers at top
