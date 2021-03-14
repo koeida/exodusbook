@@ -13,6 +13,10 @@ write initial chapter going over:
     * common proper nouns that are irregular or indeclinable (Moyses, Israel, etc)
     * herba
 
+missing defs (grep for these throughout book):
+    * occursum, cap 4 (twice)
+    * circumcidere, circumcisio, cap 4
+
 ADD VERSE NUMBERS
 
 images:
@@ -42,6 +46,7 @@ Macron Checks:
 CAP 1 CHECKED
 CAP 2 CHECKED
 CAP 3 CHECKED
+CAP 4 CHECKED
 
 cultus needs a def, it's used a lot, even in other definitions
 
