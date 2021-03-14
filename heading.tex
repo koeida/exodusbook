@@ -22,6 +22,13 @@
 \definecolor{versecolor}{cmyk}{0,.79,0.79,0.54} 
 \definecolor{capstart}{cmyk}{0,.74,0.74,0.47} 
 \extrafloats{200}
+\usepackage{contour}
+\usepackage{ulem}
+\usepackage{fontspec}
+
+\setcounter{DefaultLines}{3}
+\setlength{\DefaultNindent}{0pt}
+\setlength{\DefaultFindent}{1pt}
 
 \usepackage{xpatch}
 \xpretocmd\headrule{\color{red}}{}{\PatchFailed}
@@ -39,6 +46,9 @@
 %\newcommand{\centerimg}[2][width=\textwidth]{% Center an image
 %    \makebox[\textwidth]{\adjustimg\includegraphics[#1]{#2}}%
 %}
+
+\newcommand{\cstart}[2]{%
+    \lettrine[lines=2]{\color{capstart}#1}{#2}}
 
 
 \newcommand{\titleimg}[1]{%
@@ -132,8 +142,21 @@
 \newcommand{\mpp}[2]{%
     \marginpar{\setstretch{1}\textbf{#1} #2}}
 
+
+
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+
 \newcommand{\mktitle}[1]{%
-    {\begin{center}\large\textsc{\bfseries\underline{#1}}\end{center}}}
+    {\vspace*{0.25cm}\begin{center}\large{\bfseries\myuline{#1}}\end{center}}}
+
+
 
 
 

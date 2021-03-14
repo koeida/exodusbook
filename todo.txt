@@ -13,6 +13,8 @@ write initial chapter going over:
     * common proper nouns that are irregular or indeclinable (Moyses, Israel, etc)
     * herba
 
+ADD VERSE NUMBERS
+
 images:
 the chapter 6 image doesn't seem to have anything to do with the text.
 the chapter 6 art kinda sucks
@@ -39,6 +41,7 @@ like, why didn't sapphīrinī get caught by your software?
 Macron Checks:
 CAP 1 CHECKED
 CAP 2 CHECKED
+CAP 3 CHECKED
 
 cultus needs a def, it's used a lot, even in other definitions
 
