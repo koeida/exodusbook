@@ -10,7 +10,7 @@ write initial chapter going over:
     * hard-to-gloss words and quod/quia/quoniam clauses
     * in monumentum?
     * in fīliīs Isrāēl?
-    * common proper nouns that are irregular or indeclinable (Moyses, Israel, etc)
+    * common proper nouns that are irregular or indeclinable (Moyses, Israel, etc) -- maybe a bit about how a lot of these place names are indeclinable
     * herba
 
 missing defs (grep for these throughout book):
@@ -21,9 +21,15 @@ missing defs (grep for these throughout book):
     * lectulum cap 8
     * strātum cap 8
     * huiuscemodi cap 8
+    * animantia cap 9
+    * fundāta cap 9
+    * laesa cap 9
 
 misc:
     * Add a little summary at the end of cap 5 (I chopped out boring verses)
+    * check all the foris, and if they're adverbs, they should be forīs
+    * check all the hics and hīcs and make sure they're correct
+    * likewise qua and quā
 
 images:
 the chapter 6 image doesn't seem to have anything to do with the text.
@@ -60,6 +66,7 @@ CAP 5 CHECKED
 CAP 6 ??????
 CAP 7 CHECKED
 CAP 8 CHECKED
+CAP 9 CHECKED
 
 cultus needs a def, it's used a lot, even in other definitions
 
