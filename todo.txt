@@ -16,12 +16,21 @@ write initial chapter going over:
 missing defs (grep for these throughout book):
     * occursum, cap 4 (twice)
     * circumcidere, circumcisio, cap 4
+    * Aegyptiacas cap 7, also needs to have the Ae glyph in it. I think it's more like "in the egyptian language"
+    * vice cap 7
+    * lectulum cap 8
+    * strātum cap 8
+    * huiuscemodi cap 8
 
-ADD VERSE NUMBERS
+misc:
+    * Add a little summary at the end of cap 5 (I chopped out boring verses)
 
 images:
 the chapter 6 image doesn't seem to have anything to do with the text.
 the chapter 6 art kinda sucks
+The chapter 5 paleam colligentes image probably is copyrighted
+Chap 5 lateres needs an image
+Chap 8 sciniphēs image shouldn't be the same as a fly. It needs to be smaller, at least.
 
 golden haggadah:
 http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_27210_f001r
@@ -47,6 +56,10 @@ CAP 1 CHECKED
 CAP 2 CHECKED
 CAP 3 CHECKED
 CAP 4 CHECKED
+CAP 5 CHECKED
+CAP 6 ??????
+CAP 7 CHECKED
+CAP 8 CHECKED
 
 cultus needs a def, it's used a lot, even in other definitions
 
