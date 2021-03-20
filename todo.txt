@@ -33,7 +33,19 @@ missing defs (grep for these throughout book):
     * hāc vice cap 10
     * absque cap 12
     * religiō cap 12
+    * "congregata sunt abyssi" -- wtf? abyssus is feminine...but --- cap 15
+    * tentāre def cap 16 is not that great.
+    * invicem cap 16
+    * occursum cap 18
+    * partītō cap 18
+    * "pacifica vestra" cap 20 is gonna need more explanation, cap 32 as well
+    * fōrmāvit cap 32
+    * indūcerēs cap 32
+    * quīverō cap 32
+    * pronus final
+    * inībō  final
 misc:
+    * Base the header spacing on the Fabellae book you just got
     * Add a little summary at the end of cap 5 (I chopped out boring verses)
     * check all the foris, and if they're adverbs, they should be forīs
     * check all the hics and hīcs and make sure they're correct
@@ -42,6 +54,8 @@ misc:
     * check for 'j's!
     * cūnctaque aegyptus cap 12 -- wtf? Maybe it's appositive.
     * watch out for omnīs instead of omnis
+    * watch out for venit instead of vēnit
+    * Make sure whwat you wrote about the tablets is correct. I think it's in two places.
 
 images:
 the chapter 6 image doesn't seem to have anything to do with the text.
@@ -84,6 +98,17 @@ CAP 11 CHECKED
 CAP 12 CHECKED
 CAP 13 CHECKED
 CAP 14 CHECKED
+CAP 15 CHECKED
+CAP 16 CHECKED
+CAP 17 CHECKED
+CAP 18 CHECKED
+CAP 19 CHECKED
+CAP 20 CHECKED
+CAP 21_24 CHECKED
+CAP 25_32 CHECKED
+FINAL CAP CHECKED
+
+ALL MACRONS CHECKED
 
 cultus needs a def, it's used a lot, even in other definitions
 
