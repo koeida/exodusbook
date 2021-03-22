@@ -56,6 +56,8 @@ misc:
     * watch out for omnīs instead of omnis
     * watch out for venit instead of vēnit
     * Make sure whwat you wrote about the tablets is correct. I think it's in two places.
+    * Verify that earlier art is from public domain sources
+    * Get new chapter art for the repetetive ones (or non-pd ones)
 
 images:
 the chapter 6 image doesn't seem to have anything to do with the text.
@@ -109,6 +111,9 @@ CAP 25_32 CHECKED
 FINAL CAP CHECKED
 
 ALL MACRONS CHECKED
+
+Definition Checks:
+CAP 1 CHECKED
 
 cultus needs a def, it's used a lot, even in other definitions
 
