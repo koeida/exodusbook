@@ -58,6 +58,7 @@ misc:
     * Make sure whwat you wrote about the tablets is correct. I think it's in two places.
     * Verify that earlier art is from public domain sources
     * Get new chapter art for the repetetive ones (or non-pd ones)
+    * make sure all the Deus are capitalized
 
 images:
 the chapter 6 image doesn't seem to have anything to do with the text.
@@ -114,6 +115,13 @@ ALL MACRONS CHECKED
 
 Definition Checks:
 CAP 1 CHECKED
+CAP 2 CHECKED
+CAP 3 CHECKED
+CAP 4 CHECKED
+CAP 5 CHECKED
+CAP 6 CHECKED
+CAP 7 CHECKED
+CAP 8 CHECKED
 
 cultus needs a def, it's used a lot, even in other definitions
 

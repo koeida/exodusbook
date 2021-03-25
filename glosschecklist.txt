@@ -1,3 +1,5 @@
+GO BACK IN THE END AND CHANGE ALL USES
+
 -Add changed ones/bad ones I'm coming back to only?
 * removing praeponere (it's already used in this sense in LLPSI)
 * afflīgere as perdere doesn't seem right cap 1
@@ -15,4 +17,24 @@ cap 3
 
 cap 4
 * changed proiicere to proicere
-* stopped at leprosus
+* changed leprosus
+
+cap 5:
+* changed opprimere
+* changed dispergō
+
+cap 6:
+* changed rōbustus
+* changed omnipotens
+* changed gemitus
+* changed incircumcīsus labiīs
+
+cap 7:
+* changed prophēta
+* changed incantātiō
+
+cap 8:
+* changed dēprecārī
+* changed requies
+* changed diversus
+* changed dīvīsiō
