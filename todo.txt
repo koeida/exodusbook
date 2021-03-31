@@ -59,6 +59,9 @@ misc:
     * Verify that earlier art is from public domain sources
     * Get new chapter art for the repetetive ones (or non-pd ones)
     * make sure all the Deus are capitalized
+    * The verse numbers kind of count as spaces, so the sentences look triple-spaced
+    * every time theres a fermentō def there needs to be a fermentum def
+    * when you do a formatting check try and pull up marginal notes that bleed into the bottom margin
 
 images:
 the chapter 6 image doesn't seem to have anything to do with the text.
@@ -122,6 +125,16 @@ CAP 5 CHECKED
 CAP 6 CHECKED
 CAP 7 CHECKED
 CAP 8 CHECKED
+CAP 9 CHECKED
+CAP 10 CHECKED
+CAP 11 CHECKED
+CAP 12 CHECKED
+CAP 13 CHECKED
+CAP 14 CHECKED
+CAP 15 CHECKED
+CAP 16 CHECKED
+CAP 17 CHECKED
+CAP 18 CHECKED
 
 cultus needs a def, it's used a lot, even in other definitions
 
@@ -130,3 +143,11 @@ note for: reversi sunt tam Aarōn (finis 31)
 caps after colons
 
 there should be page numbers and chapter numbers at top
+
+
+AFTER YOU FINISH
+===============
+
+* Chapter reading/blabbing videos
+* Augustine commentary on pentateuch videos
+* Anki sentence deck for every glossed word!

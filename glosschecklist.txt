@@ -1,4 +1,5 @@
 GO BACK IN THE END AND CHANGE ALL USES
+also be careful sometimes the macrons drop off so search for macronless defs too
 
 -Add changed ones/bad ones I'm coming back to only?
 * removing praeponere (it's already used in this sense in LLPSI)
@@ -38,3 +39,37 @@ cap 8:
 * changed requies
 * changed diversus
 * changed dīvīsiō
+
+cap 9:
+* changed renuere
+* changed cinis
+
+cap 10:
+* changed subicere
+* changed superficiēs
+* changed armentum -- it sometimes is singular and not collective
+* changed sōlemnitās
+
+cap 12:
+* changed macula
+* changed azymus
+* ehhh sānctus
+* ehh venerābilis: maybe dignum colī?
+* ehh benedicere
+* changed peregrinārī
+
+cap 13:
+* changed recordatio
+
+cap 15:
+* changed fortitudo
+
+cap 16;
+* changed solitudo (nixed the solus adj)
+* changed colligere
+
+cap 17: nothin
+
+cap 18:
+* changed disceptātiō 
+
