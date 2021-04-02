@@ -39,11 +39,13 @@ missing defs (grep for these throughout book):
     * occursum cap 18
     * partītō cap 18
     * "pacifica vestra" cap 20 is gonna need more explanation, cap 32 as well
+    * arca cap 25_32
     * fōrmāvit cap 32
     * indūcerēs cap 32
     * quīverō cap 32
     * pronus final
     * inībō  final
+    
 misc:
     * Base the header spacing on the Fabellae book you just got
     * Add a little summary at the end of cap 5 (I chopped out boring verses)
@@ -135,6 +137,11 @@ CAP 15 CHECKED
 CAP 16 CHECKED
 CAP 17 CHECKED
 CAP 18 CHECKED
+CAP 19 CHECKED
+CAP 20 CHECKED
+CAP 21_24 CHECKED
+CAP 25_23 CHECKED
+CAP 33 CHECKED
 
 cultus needs a def, it's used a lot, even in other definitions
 
