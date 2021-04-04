@@ -2,57 +2,8 @@ GO BACK IN THE END AND CHANGE ALL USES
 also be careful sometimes the macrons drop off so search for macronless defs too
 
 -Add changed ones/bad ones I'm coming back to only?
-* removing praeponere (it's already used in this sense in LLPSI)
-* afflīgere as perdere doesn't seem right cap 1
-* tabernaculum should definitely be glossed as temple in cap 1
-
-cap 2
-
-* changed stirps
-* meh about līnere
-* changed adoptare
-* changed palam <-> 
-
-cap 3
-* changed visio
-
-cap 4
-* changed proiicere to proicere
-* changed leprosus
-
-cap 5:
-* changed opprimere
-* changed dispergō
-
-cap 6:
-* changed rōbustus
-* changed omnipotens
-* changed gemitus
-* changed incircumcīsus labiīs
-
-cap 7:
-* changed prophēta
-* changed incantātiō
-
-cap 8:
-* changed dēprecārī
-* changed requies
-* changed diversus
-* changed dīvīsiō
-
-cap 9:
-* changed renuere
-* changed cinis
-
-cap 10:
-* changed subicere
-* changed superficiēs
-* changed armentum -- it sometimes is singular and not collective
-* changed sōlemnitās
 
 cap 12:
-* changed macula
-* changed azymus
 * ehhh sānctus
 * ehh venerābilis: maybe dignum colī?
 * ehh benedicere
