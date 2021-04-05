@@ -7,33 +7,3 @@ cap 12:
 * ehhh sānctus
 * ehh venerābilis: maybe dignum colī?
 * ehh benedicere
-* changed peregrinārī
-
-cap 13:
-* changed recordatio
-
-cap 15:
-* changed fortitudo
-
-cap 16;
-* changed solitudo (nixed the solus adj)
-* changed colligere
-
-cap 17: nothin
-
-cap 18:
-* changed disceptātiō 
-
-cap32:
-* changed furor
-* changed quaesō
-* changed vociferatus (to vociferārī)
-* changed compellere
-* changed pulvis 
-* changed deprecare
-* changed ulciscī
-
-finis:
-* changed misericordia
-* changed prōgeniēs
-* observāre changed -- check for azyma -- it is pulling a def from another context
