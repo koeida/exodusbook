@@ -9,52 +9,22 @@ write initial chapter going over:
     * in Dominum Deum
     * common proper nouns that are irregular or indeclinable (Moyses, Israel, etc) -- maybe a bit about how a lot of these place names are indeclinable
     * herba
-
-missing defs (grep for these throughout book):
-    * removere secando partem pēnis membri siti inter crura pueri vel viri
-    * assumet cap 12 et alia
-    * circumcidere, circumcisio, cap 4
-    * ehhh sānctus
-    * ehh venerābilis: maybe dignum colī?
-    * ehh benedicere
     
 misc:
     * Base the header spacing on the Fabellae book you just got
     * uh, page numbers
-    * Add a little summary at the end of cap 5 (I chopped out boring verses)
+    * Add a little summary at the end of cap 5 (I chopped out boring verses) (or just put a note in the introduction)
     * check for 'j's!
-    * cūnctaque aegyptus cap 12 -- wtf? Maybe it's appositive.
     * Make sure whwat you wrote about the tablets is correct. I think it's in two places.
-    * Verify that earlier art is from public domain sources
-    * Get new chapter art for the repetetive ones (or non-pd ones)
     * every time theres a fermentō def there needs to be a fermentum def
     * when you do a formatting check try and pull up marginal notes that bleed into the bottom margin
 
 images:
-the chapter 6 image doesn't seem to have anything to do with the text.
-the chapter 6 art kinda sucks
-The chapter 5 paleam colligentes image probably is copyrighted
-Chap 5 lateres needs an image
-Chap 8 sciniphēs image shouldn't be the same as a fly. It needs to be smaller, at least.
-
-golden haggadah:
-http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_27210_f001r
-f.10v: burning bush, talking with israelites! w/snake
-
-lol celebrare def cap 12
-not certain about festivitas cap 12
 
 proper names -- make sure the macrons are actually correct
 
-difficult-to-define words that I want to be able to use liberally.
-Maybe make a chapter where they are defined and mark them throughout the text.
-
 cap16 verse 32: wtf does retro mean here????
 
-need an image for cap 18: maybe the james tissot painting of jethro and moses?
-
-during the read-through you need to look for words that are obviously not in llpsi
-like, why didn't sapphīrinī get caught by your software?
 
 Macron Checks:
 CAP 1 CHECKED
