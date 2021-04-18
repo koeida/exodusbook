@@ -69,28 +69,34 @@ marginparwidth=3.5cm, marginparsep=0.5cm}
 %\input{cap20.tex}
 %\input{cap21_24.tex}
 %\input{cap25_32.tex}
-\input{cap33.tex}
-\input{finis.tex}
+%\input{cap33.tex}
+%\input{finis.tex}
 
-\chapter{}
-% \newgeometry{top=0.75in, bottom=1.0in, outer=1.75in, inner=0.4in, heightrounded, 
-% marginparwidth=3.5cm, marginparsep=0.5cm}
 
-\newgeometry{top=0.75in, bottom=3cm, outer=3cm, inner=3cm}
+%\newgeometry{top=1.125in, bottom=1.25in, outer=1.75in, inner=0.75in, heightrounded, 
+%marginparwidth=3.5cm, marginparsep=0.5cm}
 
-\pagestyle{fancy}
-\fancyhead{}
-\chead{}
-%\rhead{\thechapter}
-\cfoot{} % get rid of the page number
-\renewcommand{\headrulewidth}{1pt}
-\renewcommand{\footrulewidth}{0pt}
+%\pagestyle{fancy}
+%\fancyhead{}
+%\chead{}
+%%\rhead{\thechapter}
+%\cfoot{} % get rid of the page number
+%\renewcommand{\headrulewidth}{1pt}
+%\renewcommand{\footrulewidth}{0pt}
+
+\invisiblechapter{}
+\phantom{5}
+\newpage
+\vspace*{-1.25cm}
+\mktitle{Lexicon}
+\vspace*{0.25cm}
 {\tiny
     \begin{flushleft}
-    \twocolumn
-    \parskip 0.5ex
-    \setlength{\parindent}{0pt}
-    \input{lexicon.tex}
+        \begin{multicols}{2}
+            \parskip 0.5ex
+            \setlength{\parindent}{0pt}
+            \input{lexicon.tex}
+        \end{multicols}
     \end{flushleft}
 }
 
